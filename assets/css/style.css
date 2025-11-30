@@ -11,3 +11,12 @@ footer {
     padding: 20px;
 }
 footer a { color: #fff; margin: 0 5px; text-decoration: none; }
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 100px 20px;
+}
+.hero img { max-width: 400px; width: 100%; }
