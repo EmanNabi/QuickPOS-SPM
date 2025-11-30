@@ -1,0 +1,13 @@
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+.feature-item { text-align: center; }
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+footer a { color: #fff; margin: 0 5px; text-decoration: none; }
